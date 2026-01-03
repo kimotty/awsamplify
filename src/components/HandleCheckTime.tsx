@@ -1,5 +1,5 @@
 export const HandleCheckTime = (inputTime:string) => {
-  console.log('inputTime:', inputTime);
+  console.log('inputTime :', inputTime);
 
     const currentTime = new Date();
     const [inputHours, inputMinutes] = inputTime.split(':').map(Number);
